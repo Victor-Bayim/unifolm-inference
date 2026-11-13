@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.log
+*.pt
+*.pth
+*.bin
+assets/
+examples/
+unitree_*/
