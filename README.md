@@ -1,5 +1,3 @@
-**English** | [简体中文](README.zh-CN.md)
-
 # UnifoLM Inference Engine: 3.7×
 
 UnifoLM-WMA-0 inference on two A800 80GB. 20 cases, mean time **909.68 s → 244.91 s**, **3.71×**.
