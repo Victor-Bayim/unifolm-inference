@@ -2,30 +2,32 @@
 
 # UnifoLM Inference Engine: 3.7× Acceleration
 
-Hardware-aware inference optimizations for the UnifoLM-WMA-0 world model. Across 20 archived cases, mean selected inference time drops from **909.68 s** to **244.91 s**, delivering a **3.71×** speedup.
+Hardware-aware inference optimizations for the UnifoLM-WMA-0 world model (ASC). Across 20 archived cases, mean selected inference time drops from **909.68 s** to **244.91 s**, delivering a **3.71×** speedup while remaining fully compatible with upstream weights and data formats.
 
-## Optimizations
+## What Was Optimized
 
-- Conditional KV caching with precise control over attention layout
-- Custom CUDA GEGLU kernel with Python bindings
-- Triton-fused GroupNorm + SiLU
-- Dual-GPU feature pipeline that splits prediction head and feature reception
-- Context caching and refined DDIM sampling path
+The work targets the dominant costs in video-based world-model and action-prediction inference:
 
-All changes remain fully compatible with upstream model weights and data formats.
+- Conditional KV caching with precise attention layout control, reducing redundant computation across diffusion steps.
+- A custom CUDA GEGLU kernel with Python bindings, replacing the generic PyTorch path for the feed-forward activation.
+- Triton-fused GroupNorm + SiLU, collapsing two memory-bound operations into a single kernel.
+- A dual-GPU feature pipeline that splits the prediction head and feature reception across two A800 80GB GPUs, overlapping computation and communication.
+- Context caching and a refined DDIM sampling path that reuses intermediate features where possible.
+
+All changes are isolated to the inference path; model weights, checkpoint format, and input data layout remain unchanged.
 
 ## Performance
 
-- Mean selected time: 909.6807 s → 244.9054 s
+- Mean selected time (20 cases): 909.6807 s → 244.9054 s
 - Speedup (ratio of means): **3.714×**
 - Mean per-case speedup: **3.721×**
 
-Results are archived and recomputable. The dual-GPU path requires two A800 80GB GPUs.
+Results are fully archived in `benchmarks/` and can be recomputed with the provided verification scripts. The dual-GPU path requires two A800 80GB GPUs.
 
 ## Quick Start
 
 ```bash
-# CPU verification
+# CPU verification of records and cache logic
 python verify.py
 python -m unittest test_records -v
 
@@ -36,4 +38,4 @@ CUDA_VISIBLE_DEVICES=0,1 python tools/run_single_case.py \
   --run
 ```
 
-Upstream framework: Unitree Robotics / unifolm-world-model-action.
+Upstream framework: [Unitree Robotics / unifolm-world-model-action](https://github.com/unitreerobotics/unifolm-world-model-action).
