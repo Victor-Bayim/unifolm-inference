@@ -696,8 +696,8 @@
       "path": "project/README.md",
       "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/README.md",
       "original_sha256": "d59c226c3da41e30d90c21cfece6edfaa5da1c8be9001e73030cdf88e15f373a",
-      "sha256": "d59c226c3da41e30d90c21cfece6edfaa5da1c8be9001e73030cdf88e15f373a",
-      "transformation": "byte-identical",
+      "sha256": "b7cb60a22d723c3fc140d301bf2d81fe730b2fc8b3aafef9c54079e1182f2607",
+      "transformation": "bilingual documentation",
       "archive_git_blob_sha1": "15aa4be8418f307bce06d08f20608546b1544111",
       "head_git_blob_sha1": "15aa4be8418f307bce06d08f20608546b1544111",
       "relation_to_archived_main": "identical"
@@ -706,8 +706,8 @@
       "path": "project/README_cn.md",
       "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/README_cn.md",
       "original_sha256": "4ececa1d466b3abdc4a303fd62289df67a5d2cc0557a3fa62e9191cd6ec42b63",
-      "sha256": "4ececa1d466b3abdc4a303fd62289df67a5d2cc0557a3fa62e9191cd6ec42b63",
-      "transformation": "byte-identical",
+      "sha256": "994e8d4622c91d722cdbd6285e44daa40a0f7b71bf62d02d20ba603e5e499b94",
+      "transformation": "bilingual documentation",
       "archive_git_blob_sha1": "143f99878de34257a78afad86057522dd040a468",
       "head_git_blob_sha1": "143f99878de34257a78afad86057522dd040a468",
       "relation_to_archived_main": "identical"

@@ -1,14 +1,11 @@
+**English** | [简体中文](README_cn.md)
+
 # UnifoLM-WMA-0: A World-Model-Action (WMA) Framework under UnifoLM Family
 <p style="font-size: 1.2em;">
     <a href="https://unigen-x.github.io/unifolm-world-model-action.github.io"><strong>Project Page</strong></a> | 
     <a href="https://huggingface.co/collections/unitreerobotics/unifolm-wma-0-68ca23027310c0ca0f34959c"><strong>Models</strong></a> |
     <a href="https://huggingface.co/unitreerobotics/datasets"><strong>Dataset</strong></a> 
   </p>
-<div align="center">
-  <p align="right">
-    <span> 🌎English </span> | <a href="README_cn.md"> 🇨🇳中文 </a>
-  </p>
-</div>
 <div align="justify">
     <b>UnifoLM-WMA-0</b> is Unitree‘s open-source world-model–action architecture spanning multiple types of robotic embodiments, designed specifically for general-purpose robot learning. Its core component is a world-model capable of understanding the physical interactions between robots and the environments. This world-model provides two key functions: (a) <b>Simulation Engine</b> – operates as an interactive simulator to generate synthetic data for robot learning; (b) <b>Policy Enhancement</b> – connects with an action head and, by predicting future interaction processes with the world-model, further optimizes decision-making performance.
 </div>

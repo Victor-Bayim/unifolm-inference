@@ -1,15 +1,11 @@
+[English](README.md) | **简体中文**
+
 # UnifoLM-WMA-0: A World-Model-Action (WMA) Framework under UnifoLM Family
  <p style="font-size: 1.2em;">
     <a href="https://unigen-x.github.io/unifolm-world-model-action.github.io"><strong>项目主页</strong></a> | 
     <a href="https://huggingface.co/collections/unitreerobotics/unifolm-wma-0-68ca23027310c0ca0f34959c"><strong>开源模型</strong></a> |
     <a href="https://huggingface.co/unitreerobotics/datasets"><strong>开源数据</strong></a> 
   </p>
-<div align="center">
-  <p align="right">
-    <span> 🌎English </span> | <a href="README_cn.md"> 🇨🇳中文 </a>
-  </p>
-</div>
-
 **UnifoLM-WMA-0** 是宇树科技跨多类机器人本体的开源世界模型-动作架构，专为通用机器人学习而设计。其核心成分在于一个可以理解机器人与环境交互物理规律的世界模型。该世界模型具备两大核心功能：（1）**仿真引擎**，作为交互式仿真器运行，为机器人学习提供合成数据;（2）**策略增强**，可与一个动作头进行对接，通过预测未来与物理世界的交互过程，进一步优化决策性能。模型的真机部署效果如下所示，其中右上角小窗口是世界模型对于未来环境变化的预测，可辅助控制指令生成。
 
 ## 🦾 真机效果 
