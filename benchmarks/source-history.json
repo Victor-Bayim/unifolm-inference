@@ -1,0 +1,231 @@
+{
+  "archived_main": "b7c5f751ba11e98553c743af480335d872dc9100",
+  "scope": "Team repository history, not an individual authorship claim",
+  "commits": [
+    {
+      "commit": "b7c5f751ba11e98553c743af480335d872dc9100",
+      "date": "2026-03-02T11:47:15Z",
+      "subject": "fix plot"
+    },
+    {
+      "commit": "4f7d5b0a81be2523c480cba146eabd0dbf18f00a",
+      "date": "2026-03-02T11:45:13Z",
+      "subject": "add plot script"
+    },
+    {
+      "commit": "89a7e695b21843bba3b5e913464d0b2bbb899b68",
+      "date": "2026-03-01T08:57:25Z",
+      "subject": "tmp"
+    },
+    {
+      "commit": "b3ef4f20fb4021b99989e5b823c53b7b2fc05866",
+      "date": "2026-03-01T06:29:06Z",
+      "subject": "tmp"
+    },
+    {
+      "commit": "c92c3f12abba98c5ec9edce58f9ab4a26e955ef2",
+      "date": "2026-02-27T14:56:05Z",
+      "subject": "tmp"
+    },
+    {
+      "commit": "6b901872fb1fabe2d91f48b815db8b9c671972f3",
+      "date": "2026-02-27T13:22:43Z",
+      "subject": "add async saving"
+    },
+    {
+      "commit": "e68acac21c9c1123e0b139224daff8fa12a9fa44",
+      "date": "2026-02-27T06:32:15Z",
+      "subject": "some scripts"
+    },
+    {
+      "commit": "ce01365157853f6baac6415a388ac53c1c7c519f",
+      "date": "2026-02-26T12:06:35Z",
+      "subject": "fix precision problem"
+    },
+    {
+      "commit": "032e78f90f721a2968f0787b01fc851916e19e1c",
+      "date": "2026-02-25T07:03:32Z",
+      "subject": "update precision"
+    },
+    {
+      "commit": "c5c7c39eeb3771c8a5853412039d312a867d2e08",
+      "date": "2026-02-24T13:34:34Z",
+      "subject": "refactor: simplify skip_init and delete redundant code"
+    },
+    {
+      "commit": "994265418245ee7affcd39f6335dd29205dfdf5d",
+      "date": "2026-02-24T13:32:04Z",
+      "subject": "simplify skip_init and delete redundant code"
+    },
+    {
+      "commit": "87576d0107d20d4aef7d0f2ba7632ed08ccbf1ed",
+      "date": "2026-02-24T11:26:25Z",
+      "subject": "multi gpu load"
+    },
+    {
+      "commit": "fd027a9b2a0180b064930c9447ced15b661d8969",
+      "date": "2026-02-24T10:40:56Z",
+      "subject": "reduce load"
+    },
+    {
+      "commit": "d156e1e172f52f2f616d00d5e6f82937ca0dc9cf",
+      "date": "2026-02-12T07:26:30Z",
+      "subject": "reduce redundancy rerange"
+    },
+    {
+      "commit": "f9b79b384eade12f32b17a88cf2be583b7cd434d",
+      "date": "2026-02-11T13:37:53Z",
+      "subject": "update: add embedding cache and reduce the num of communication"
+    },
+    {
+      "commit": "f1a834a55aa0292fb0b97f2ec17ddfbc91443c5f",
+      "date": "2026-02-09T11:21:06Z",
+      "subject": "fix: add signal for int"
+    },
+    {
+      "commit": "64e1d633f12441382d3db3391a32a1ceb6788155",
+      "date": "2026-02-09T11:17:42Z",
+      "subject": "update: optimze communication and add some cache"
+    },
+    {
+      "commit": "54f1b41bcbe66db5c08efd00bded9f4cdeb85cfd",
+      "date": "2026-02-09T07:19:17Z",
+      "subject": "feat: async model loading"
+    },
+    {
+      "commit": "04ab2af98f29ea84194f22376533573f6d405ef5",
+      "date": "2026-02-09T06:17:08Z",
+      "subject": "reduce unnecessary code"
+    },
+    {
+      "commit": "560245c88cc415fd575c48a2bbe43ec0c2e87d84",
+      "date": "2026-02-09T06:02:35Z",
+      "subject": "reduce unnecessary code"
+    },
+    {
+      "commit": "6c861c12f2d44d22868044b4b51c8429bacaecea",
+      "date": "2026-02-08T19:12:27+08:00",
+      "subject": "Merge pull request #10 from FZU-ASC/dev-parallize"
+    },
+    {
+      "commit": "fabf8c3bf679255a486d8e17cc6bf3718bbcee66",
+      "date": "2026-02-08T19:00:10+08:00",
+      "subject": "reduce unnecessary ins_emb"
+    },
+    {
+      "commit": "3e7360e6021468a12bf166580f16c976f56a4f55",
+      "date": "2026-02-08T00:14:46+08:00",
+      "subject": "Merge pull request #9 from FZU-ASC/dev-parallize"
+    },
+    {
+      "commit": "5ce2332a60b7e32a90984e547132fbf938cf18af",
+      "date": "2026-02-05T15:50:33+08:00",
+      "subject": "feat: add unet parallize"
+    },
+    {
+      "commit": "557b15d3bf6f7239bd52b9c9087e467ad3bfbb23",
+      "date": "2026-02-07T01:14:39+08:00",
+      "subject": "Merge pull request #8 from FZU-ASC/add_profile"
+    },
+    {
+      "commit": "28beaf6ee4b546cca30a4ed4f60d95cb6311aa1d",
+      "date": "2026-02-07T01:13:24+08:00",
+      "subject": "add profile script"
+    },
+    {
+      "commit": "47b797e506fbdc20edaa49c42900b8afdb960927",
+      "date": "2026-02-06T21:24:31+08:00",
+      "subject": "Merge pull request #6 from FZU-ASC/zxf"
+    },
+    {
+      "commit": "d73afb06b9289a35d0f05791037c1e62d99a4445",
+      "date": "2026-02-04T20:25:36+08:00",
+      "subject": "debug"
+    },
+    {
+      "commit": "0acd3d4d80c35873bcee2f4630cd9fbe40d0192b",
+      "date": "2026-02-04T20:05:35+08:00",
+      "subject": "Synchronize the main branch and add kv_cache"
+    },
+    {
+      "commit": "a32ba846c8562f35a2d486a38ac3e2234ce4d811",
+      "date": "2026-02-02T16:59:26+08:00",
+      "subject": "Merge pull request #4 from FZU-ASC/wjc"
+    },
+    {
+      "commit": "91c758fdcc0bc47fc40bbb3cf1b469e5ac0df910",
+      "date": "2026-02-02T16:58:33+08:00",
+      "subject": "no optimize commit: use pixi instead of uv and add submodules to run (add ffmpeg, submodules and pinocchio with confict with np) (24.0783 dB add ffmpeg and sub: 7m25.342s 04:20)"
+    },
+    {
+      "commit": "1c55f7c7dbb477faaec50b1c624bf42862b16fcd",
+      "date": "2026-02-02T15:54:34+08:00",
+      "subject": "use bfloat16 with autocast 24.0783 dB 6m9.194s 04:20"
+    },
+    {
+      "commit": "c0a87be771982d881d3f2cfcf3cbd0f75c638cb7",
+      "date": "2026-02-02T13:54:17+08:00",
+      "subject": "Update Perceive Attention to use xformers: 24.5256 dB"
+    },
+    {
+      "commit": "e03fb1c9210c9c7b2c6532f9165e61e81bed724a",
+      "date": "2026-02-02T12:42:55+08:00",
+      "subject": "add geglu ops and add keep some precision in model 24.8585 dB"
+    },
+    {
+      "commit": "e3f6e563a78f332dbbb6fad0c99385ecc4ff6bd4",
+      "date": "2026-02-02T14:54:00+08:00",
+      "subject": "Merge pull request #3 from FZU-ASC/zxf"
+    },
+    {
+      "commit": "ae8b6a8c575514ec2b874adc2f9fc9920c95a13f",
+      "date": "2026-02-02T14:45:50+08:00",
+      "subject": "return to fp16"
+    },
+    {
+      "commit": "5fac142bc9a26f057aa304f8556e6c93c63627e6",
+      "date": "2026-02-01T23:51:06+08:00",
+      "subject": "fuse groupnorm and silu"
+    },
+    {
+      "commit": "7e161d1bbbe481a59822663b1136d775ccd53fd9",
+      "date": "2026-02-01T21:34:50+08:00",
+      "subject": "Merge pull request #2 from FZU-ASC/wjc"
+    },
+    {
+      "commit": "9c042f05faa0b046856df20ccd47c47af5876c99",
+      "date": "2026-02-01T19:52:27+08:00",
+      "subject": "In CrossAttention, change effcient unneccessary reshape: 23 dB (if reserve alphas_cumprod and alphas_cumprod_prev else 26 dB but other case maybe faile)"
+    },
+    {
+      "commit": "ba3532f7d3869a6c6c326b83b6af908510c17caa",
+      "date": "2026-02-01T18:13:04+08:00",
+      "subject": "feat: In CrossAttention, change forward to xformers"
+    },
+    {
+      "commit": "0796f5d758182fdd4849bfef72889c4a56b2e532",
+      "date": "2026-02-01T16:45:53+08:00",
+      "subject": "update: use autocast and change model to float16"
+    },
+    {
+      "commit": "0cbd4f309999a786e761d6e849f5f80b0ce926f8",
+      "date": "2026-02-01T16:04:04+08:00",
+      "subject": "update: Only One Unet and delete unnecessary operations like tensorboard and video0"
+    },
+    {
+      "commit": "98cc14eb0a85d0114556a935d01b98c758cc6fdd",
+      "date": "2026-02-01T15:52:00+08:00",
+      "subject": "Merge pull request #1 from FZU-ASC/wjc"
+    },
+    {
+      "commit": "477cbd10f2e8ebc0735e7429d542b9eeaae690b3",
+      "date": "2026-02-01T15:50:37+08:00",
+      "subject": "add: add meta.json"
+    },
+    {
+      "commit": "05b50f220d09006714df1a0affa57a69b58147c6",
+      "date": "2026-02-01T15:47:07+08:00",
+      "subject": "update: attn mask use cache and modify normalize"
+    }
+  ]
+}

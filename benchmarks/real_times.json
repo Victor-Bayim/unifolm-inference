@@ -1,0 +1,112 @@
+{
+  "unitree_g1_pack_camera": {
+    "case1": {
+      "seconds": 270.536,
+      "raw": "real\t4m30.536s",
+      "path": "saved_1/unitree_g1_pack_camera/case1/output.log"
+    },
+    "case2": {
+      "seconds": 274.835,
+      "raw": "real\t4m34.835s",
+      "path": "saved_1/unitree_g1_pack_camera/case2/output.log"
+    },
+    "case3": {
+      "seconds": 270.829,
+      "raw": "real\t4m30.829s",
+      "path": "saved_1/unitree_g1_pack_camera/case3/output.log"
+    },
+    "case4": {
+      "seconds": 270.957,
+      "raw": "real\t4m30.957s",
+      "path": "saved_1/unitree_g1_pack_camera/case4/output.log"
+    }
+  },
+  "unitree_z1_dual_arm_cleanup_pencils": {
+    "case1": {
+      "seconds": 207.268,
+      "raw": "real\t3m27.268s",
+      "path": "saved_1/unitree_z1_dual_arm_cleanup_pencils/case1/output.log"
+    },
+    "case2": {
+      "seconds": 207.983,
+      "raw": "real\t3m27.983s",
+      "path": "saved_1/unitree_z1_dual_arm_cleanup_pencils/case2/output.log"
+    },
+    "case3": {
+      "seconds": 210.617,
+      "raw": "real\t3m30.617s",
+      "path": "saved_1/unitree_z1_dual_arm_cleanup_pencils/case3/output.log"
+    },
+    "case4": {
+      "seconds": 208.341,
+      "raw": "real\t3m28.341s",
+      "path": "saved_1/unitree_z1_dual_arm_cleanup_pencils/case4/output.log"
+    }
+  },
+  "unitree_z1_dual_arm_stackbox": {
+    "case1": {
+      "seconds": 187.867,
+      "raw": "real\t3m7.867s",
+      "path": "saved_1/unitree_z1_dual_arm_stackbox/case1/output.log"
+    },
+    "case2": {
+      "seconds": 186.596,
+      "raw": "real\t3m6.596s",
+      "path": "saved_1/unitree_z1_dual_arm_stackbox/case2/output.log"
+    },
+    "case3": {
+      "seconds": 186.585,
+      "raw": "real\t3m6.585s",
+      "path": "saved_1/unitree_z1_dual_arm_stackbox/case3/output.log"
+    },
+    "case4": {
+      "seconds": 192.613,
+      "raw": "real\t3m12.613s",
+      "path": "saved_1/unitree_z1_dual_arm_stackbox/case4/output.log"
+    }
+  },
+  "unitree_z1_dual_arm_stackbox_v2": {
+    "case1": {
+      "seconds": 269.66,
+      "raw": "real\t4m29.660s",
+      "path": "saved_1/unitree_z1_dual_arm_stackbox_v2/case1/output.log"
+    },
+    "case2": {
+      "seconds": 270.368,
+      "raw": "real\t4m30.368s",
+      "path": "saved_1/unitree_z1_dual_arm_stackbox_v2/case2/output.log"
+    },
+    "case3": {
+      "seconds": 271.009,
+      "raw": "real\t4m31.009s",
+      "path": "saved_1/unitree_z1_dual_arm_stackbox_v2/case3/output.log"
+    },
+    "case4": {
+      "seconds": 271.935,
+      "raw": "real\t4m31.935s",
+      "path": "saved_1/unitree_z1_dual_arm_stackbox_v2/case4/output.log"
+    }
+  },
+  "unitree_z1_stackbox": {
+    "case1": {
+      "seconds": 290.93399999999997,
+      "raw": "real\t4m50.934s",
+      "path": "saved_1/unitree_z1_stackbox/case1/output.log"
+    },
+    "case2": {
+      "seconds": 293.872,
+      "raw": "real\t4m53.872s",
+      "path": "saved_1/unitree_z1_stackbox/case2/output.log"
+    },
+    "case3": {
+      "seconds": 290.45,
+      "raw": "real\t4m50.450s",
+      "path": "saved_1/unitree_z1_stackbox/case3/output.log"
+    },
+    "case4": {
+      "seconds": 290.173,
+      "raw": "real\t4m50.173s",
+      "path": "saved_1/unitree_z1_stackbox/case4/output.log"
+    }
+  }
+}

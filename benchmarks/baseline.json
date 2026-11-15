@@ -1,0 +1,132 @@
+{
+  "unitree_g1_pack_camera": {
+    "case1": {
+      "seconds": 994.309,
+      "raw": "real\t16m34.309s",
+      "path": "baseline_2/unitree_g1_pack_camera/case1/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    },
+    "case2": {
+      "seconds": 994.294,
+      "raw": "real\t16m34.294s",
+      "path": "baseline_2/unitree_g1_pack_camera/case2/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    },
+    "case3": {
+      "seconds": 992.739,
+      "raw": "real\t16m32.739s",
+      "path": "baseline_1/unitree_g1_pack_camera/case3/output.log",
+      "source_root": "<private-run-root>/baseline_1"
+    },
+    "case4": {
+      "seconds": 993.224,
+      "raw": "real\t16m33.224s",
+      "path": "baseline_1/unitree_g1_pack_camera/case4/output.log",
+      "source_root": "<private-run-root>/baseline_1"
+    }
+  },
+  "unitree_z1_dual_arm_cleanup_pencils": {
+    "case1": {
+      "seconds": 762.728,
+      "raw": "real\t12m42.728s",
+      "path": "baseline_1/unitree_z1_dual_arm_cleanup_pencils/case1/output.log",
+      "source_root": "<private-run-root>/baseline_1"
+    },
+    "case2": {
+      "seconds": 771.736,
+      "raw": "real\t12m51.736s",
+      "path": "baseline_1/unitree_z1_dual_arm_cleanup_pencils/case2/output.log",
+      "source_root": "<private-run-root>/baseline_1"
+    },
+    "case3": {
+      "seconds": 807.711,
+      "raw": "real\t13m27.711s",
+      "path": "baseline_2/unitree_z1_dual_arm_cleanup_pencils/case3/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    },
+    "case4": {
+      "seconds": 776.101,
+      "raw": "real\t12m56.101s",
+      "path": "baseline_2/unitree_z1_dual_arm_cleanup_pencils/case4/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    }
+  },
+  "unitree_z1_dual_arm_stackbox": {
+    "case1": {
+      "seconds": 707.108,
+      "raw": "real\t11m47.108s",
+      "path": "baseline_1/unitree_z1_dual_arm_stackbox/case1/output.log",
+      "source_root": "<private-run-root>/baseline_1"
+    },
+    "case2": {
+      "seconds": 696.99,
+      "raw": "real\t11m36.990s",
+      "path": "baseline_2/unitree_z1_dual_arm_stackbox/case2/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    },
+    "case3": {
+      "seconds": 704.622,
+      "raw": "real\t11m44.622s",
+      "path": "baseline_2/unitree_z1_dual_arm_stackbox/case3/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    },
+    "case4": {
+      "seconds": 698.581,
+      "raw": "real\t11m38.581s",
+      "path": "baseline_1/unitree_z1_dual_arm_stackbox/case4/output.log",
+      "source_root": "<private-run-root>/baseline_1"
+    }
+  },
+  "unitree_z1_dual_arm_stackbox_v2": {
+    "case1": {
+      "seconds": 1004.437,
+      "raw": "real\t16m44.437s",
+      "path": "baseline_2/unitree_z1_dual_arm_stackbox_v2/case1/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    },
+    "case2": {
+      "seconds": 1001.914,
+      "raw": "real\t16m41.914s",
+      "path": "baseline_2/unitree_z1_dual_arm_stackbox_v2/case2/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    },
+    "case3": {
+      "seconds": 1006.527,
+      "raw": "real\t16m46.527s",
+      "path": "baseline_2/unitree_z1_dual_arm_stackbox_v2/case3/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    },
+    "case4": {
+      "seconds": 1003.478,
+      "raw": "real\t16m43.478s",
+      "path": "baseline_1/unitree_z1_dual_arm_stackbox_v2/case4/output.log",
+      "source_root": "<private-run-root>/baseline_1"
+    }
+  },
+  "unitree_z1_stackbox": {
+    "case1": {
+      "seconds": 1069.938,
+      "raw": "real\t17m49.938s",
+      "path": "baseline_1/unitree_z1_stackbox/case1/output.log",
+      "source_root": "<private-run-root>/baseline_1"
+    },
+    "case2": {
+      "seconds": 1068.382,
+      "raw": "real\t17m48.382s",
+      "path": "baseline_2/unitree_z1_stackbox/case2/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    },
+    "case3": {
+      "seconds": 1062.117,
+      "raw": "real\t17m42.117s",
+      "path": "baseline_1/unitree_z1_stackbox/case3/output.log",
+      "source_root": "<private-run-root>/baseline_1"
+    },
+    "case4": {
+      "seconds": 1076.6779999999999,
+      "raw": "real\t17m56.678s",
+      "path": "baseline_2/unitree_z1_stackbox/case4/output.log",
+      "source_root": "<private-run-root>/baseline_2"
+    }
+  }
+}

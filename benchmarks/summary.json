@@ -1,0 +1,9 @@
+{
+  "cases": 20,
+  "baseline_mean_seconds": 909.6807,
+  "optimized_mean_seconds": 244.90540000000001,
+  "ratio_of_means": 3.714416668640218,
+  "mean_of_case_ratios": 3.7210020151505843,
+  "aggregation": "Mean across 20 selected case records; not a repeat-run mean. Included aggregation tool selects max baseline / min optimized across run roots.",
+  "quality_relation": "Timing JSON does not contain matched PSNR values."
+}

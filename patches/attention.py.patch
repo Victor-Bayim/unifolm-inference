@@ -1,0 +1,11 @@
+--- a/project/src/unifolm_wma/modules/attention.py
++++ b/project/src/unifolm_wma/modules/attention.py
+@@ -138,7 +138,7 @@
+         self._kv_cache.clear()
+ 
+     def forward(self, x, context=None, mask=None):
+-        use_cache = self._cache_enabled and context
++        use_cache = self._cache_enabled and context is not None
+         h = self.heads
+         q = self.to_q(x)
+         context = default(context, x)

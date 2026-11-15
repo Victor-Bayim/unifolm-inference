@@ -1,0 +1,2 @@
+# Preserve the supplied snapshot and before/after source hashes byte-for-byte.
+* -text

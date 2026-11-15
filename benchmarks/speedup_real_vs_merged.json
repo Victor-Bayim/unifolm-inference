@@ -1,0 +1,172 @@
+{
+  "unitree_g1_pack_camera": {
+    "case1": {
+      "ref_seconds": 994.309,
+      "other_seconds": 270.536,
+      "ref_path": "baseline_2/unitree_g1_pack_camera/case1/output.log",
+      "other_path": "saved_1/unitree_g1_pack_camera/case1/output.log",
+      "speedup": 3.6753297158234024,
+      "status": "ok"
+    },
+    "case2": {
+      "ref_seconds": 994.294,
+      "other_seconds": 269.753,
+      "ref_path": "baseline_2/unitree_g1_pack_camera/case2/output.log",
+      "other_path": "saved_3/unitree_g1_pack_camera/case2/output.log",
+      "speedup": 3.685942325015848,
+      "status": "ok"
+    },
+    "case3": {
+      "ref_seconds": 992.739,
+      "other_seconds": 270.351,
+      "ref_path": "baseline_1/unitree_g1_pack_camera/case3/output.log",
+      "other_path": "saved_2/unitree_g1_pack_camera/case3/output.log",
+      "speedup": 3.6720374624099783,
+      "status": "ok"
+    },
+    "case4": {
+      "ref_seconds": 993.224,
+      "other_seconds": 270.888,
+      "ref_path": "baseline_1/unitree_g1_pack_camera/case4/output.log",
+      "other_path": "saved_3/unitree_g1_pack_camera/case4/output.log",
+      "speedup": 3.6665485366646,
+      "status": "ok"
+    }
+  },
+  "unitree_z1_dual_arm_cleanup_pencils": {
+    "case1": {
+      "ref_seconds": 762.728,
+      "other_seconds": 207.268,
+      "ref_path": "baseline_1/unitree_z1_dual_arm_cleanup_pencils/case1/output.log",
+      "other_path": "saved_1/unitree_z1_dual_arm_cleanup_pencils/case1/output.log",
+      "speedup": 3.6799119979929364,
+      "status": "ok"
+    },
+    "case2": {
+      "ref_seconds": 771.736,
+      "other_seconds": 206.597,
+      "ref_path": "baseline_1/unitree_z1_dual_arm_cleanup_pencils/case2/output.log",
+      "other_path": "saved_2/unitree_z1_dual_arm_cleanup_pencils/case2/output.log",
+      "speedup": 3.7354656650386984,
+      "status": "ok"
+    },
+    "case3": {
+      "ref_seconds": 807.711,
+      "other_seconds": 207.423,
+      "ref_path": "baseline_2/unitree_z1_dual_arm_cleanup_pencils/case3/output.log",
+      "other_path": "saved_2/unitree_z1_dual_arm_cleanup_pencils/case3/output.log",
+      "speedup": 3.89402814538407,
+      "status": "ok"
+    },
+    "case4": {
+      "ref_seconds": 776.101,
+      "other_seconds": 207.305,
+      "ref_path": "baseline_2/unitree_z1_dual_arm_cleanup_pencils/case4/output.log",
+      "other_path": "saved_2/unitree_z1_dual_arm_cleanup_pencils/case4/output.log",
+      "speedup": 3.743764019198765,
+      "status": "ok"
+    }
+  },
+  "unitree_z1_dual_arm_stackbox": {
+    "case1": {
+      "ref_seconds": 707.108,
+      "other_seconds": 186.3,
+      "ref_path": "baseline_1/unitree_z1_dual_arm_stackbox/case1/output.log",
+      "other_path": "saved_3/unitree_z1_dual_arm_stackbox/case1/output.log",
+      "speedup": 3.7955340848094465,
+      "status": "ok"
+    },
+    "case2": {
+      "ref_seconds": 696.99,
+      "other_seconds": 186.322,
+      "ref_path": "baseline_2/unitree_z1_dual_arm_stackbox/case2/output.log",
+      "other_path": "saved_3/unitree_z1_dual_arm_stackbox/case2/output.log",
+      "speedup": 3.7407820869247863,
+      "status": "ok"
+    },
+    "case3": {
+      "ref_seconds": 704.622,
+      "other_seconds": 186.257,
+      "ref_path": "baseline_2/unitree_z1_dual_arm_stackbox/case3/output.log",
+      "other_path": "saved_4/unitree_z1_dual_arm_stackbox/case3/output.log",
+      "speedup": 3.7830631868869355,
+      "status": "ok"
+    },
+    "case4": {
+      "ref_seconds": 698.581,
+      "other_seconds": 184.88400000000001,
+      "ref_path": "baseline_1/unitree_z1_dual_arm_stackbox/case4/output.log",
+      "other_path": "saved_2/unitree_z1_dual_arm_stackbox/case4/output.log",
+      "speedup": 3.778482724302806,
+      "status": "ok"
+    }
+  },
+  "unitree_z1_dual_arm_stackbox_v2": {
+    "case1": {
+      "ref_seconds": 1004.437,
+      "other_seconds": 269.66,
+      "ref_path": "baseline_2/unitree_z1_dual_arm_stackbox_v2/case1/output.log",
+      "other_path": "saved_1/unitree_z1_dual_arm_stackbox_v2/case1/output.log",
+      "speedup": 3.7248275606319066,
+      "status": "ok"
+    },
+    "case2": {
+      "ref_seconds": 1001.914,
+      "other_seconds": 270.314,
+      "ref_path": "baseline_2/unitree_z1_dual_arm_stackbox_v2/case2/output.log",
+      "other_path": "saved_4/unitree_z1_dual_arm_stackbox_v2/case2/output.log",
+      "speedup": 3.706482091197644,
+      "status": "ok"
+    },
+    "case3": {
+      "ref_seconds": 1006.527,
+      "other_seconds": 270.696,
+      "ref_path": "baseline_2/unitree_z1_dual_arm_stackbox_v2/case3/output.log",
+      "other_path": "saved_3/unitree_z1_dual_arm_stackbox_v2/case3/output.log",
+      "speedup": 3.718292845110382,
+      "status": "ok"
+    },
+    "case4": {
+      "ref_seconds": 1003.478,
+      "other_seconds": 270.66700000000003,
+      "ref_path": "baseline_1/unitree_z1_dual_arm_stackbox_v2/case4/output.log",
+      "other_path": "saved_3/unitree_z1_dual_arm_stackbox_v2/case4/output.log",
+      "speedup": 3.7074264686866143,
+      "status": "ok"
+    }
+  },
+  "unitree_z1_stackbox": {
+    "case1": {
+      "ref_seconds": 1069.938,
+      "other_seconds": 290.93399999999997,
+      "ref_path": "baseline_1/unitree_z1_stackbox/case1/output.log",
+      "other_path": "saved_1/unitree_z1_stackbox/case1/output.log",
+      "speedup": 3.677596980758523,
+      "status": "ok"
+    },
+    "case2": {
+      "ref_seconds": 1068.382,
+      "other_seconds": 291.33,
+      "ref_path": "baseline_2/unitree_z1_stackbox/case2/output.log",
+      "other_path": "saved_3/unitree_z1_stackbox/case2/output.log",
+      "speedup": 3.667257062437786,
+      "status": "ok"
+    },
+    "case3": {
+      "ref_seconds": 1062.117,
+      "other_seconds": 290.45,
+      "ref_path": "baseline_1/unitree_z1_stackbox/case3/output.log",
+      "other_path": "saved_1/unitree_z1_stackbox/case3/output.log",
+      "speedup": 3.6567980719573074,
+      "status": "ok"
+    },
+    "case4": {
+      "ref_seconds": 1076.6779999999999,
+      "other_seconds": 290.173,
+      "ref_path": "baseline_2/unitree_z1_stackbox/case4/output.log",
+      "other_path": "saved_1/unitree_z1_stackbox/case4/output.log",
+      "speedup": 3.7104692717792487,
+      "status": "ok"
+    }
+  }
+}

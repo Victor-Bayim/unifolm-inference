@@ -7,3 +7,18 @@ __pycache__/
 assets/
 examples/
 unitree_*/
+
+# Local builds, environments, results and model weights
+.venv/
+.env
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+*.so
+*.o
+*.pyd
+*.safetensors
+*.ckpt
+results/
+result/

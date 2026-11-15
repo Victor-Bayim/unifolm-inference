@@ -1,0 +1,36 @@
+--- a/project/scripts/evaluation/world_model_interaction.py
++++ b/project/scripts/evaluation/world_model_interaction.py
+@@ -483,6 +483,15 @@
+ 
+ 
+ 
++def select_case_frame(frame, case_index):
++    """Select one zero-based CSV row without changing the source metadata."""
++    if case_index is None:
++        return frame
++    if case_index < 0 or case_index >= len(frame):
++        raise ValueError(f"case_index {case_index} is outside 0..{len(frame) - 1}")
++    return frame.iloc[[case_index]]
++
++
+ def run_inference(args: argparse.Namespace, gpu_num: int, gpu_no: int, ckpt_queue: mp.Queue = None) -> None:
+     import pandas as pd
+     import h5py
+@@ -498,7 +507,7 @@
+         dist.irecv(wup_tensor, src=1)
+ 
+     csv_path = os.path.join(args.prompt_dir, f"{args.dataset}.csv")
+-    df = pd.read_csv(csv_path)
++    df = select_case_frame(pd.read_csv(csv_path), args.case_index)
+ 
+     executor = ThreadPoolExecutor(max_workers=1)
+     checkpoint_future = executor.submit(load_checkpoint_to_memory, args.ckpt_path)
+@@ -795,6 +804,8 @@
+ 
+ def get_parser():
+     parser = argparse.ArgumentParser()
++    parser.add_argument("--case_index", type=int, default=None,
++                        help="Optional zero-based prompt CSV row; use one case for the dual-GPU snapshot.")
+     parser.add_argument(
+         "--savedir", type=str, default=None, help="Path to save the results."
+     )

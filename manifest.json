@@ -1,0 +1,799 @@
+{
+  "archive_sha256": "66e1c5e99376f7568023c3fb3d2bda25578fd82f4b1547daf529869ded7c276b",
+  "archived_main": "b7c5f751ba11e98553c743af480335d872dc9100",
+  "files": [
+    {
+      "path": "project/src/unifolm_wma/__init__.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "head_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/data/base.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/data/base.py",
+      "original_sha256": "aeea7a5b1bd134f85d516f12d07753f2a446ec4c52d97f1a1097e8d37749b379",
+      "sha256": "aeea7a5b1bd134f85d516f12d07753f2a446ec4c52d97f1a1097e8d37749b379",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "b10b13adbf454c92a30eab171631b6d7c430d26f",
+      "head_git_blob_sha1": "b10b13adbf454c92a30eab171631b6d7c430d26f",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/data/normolize.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/data/normolize.py",
+      "original_sha256": "2e6e2482b989e4e0d30f9c35b3f3e786bb6f8e9b9f2f84c6057bfbea286fe63b",
+      "sha256": "2e6e2482b989e4e0d30f9c35b3f3e786bb6f8e9b9f2f84c6057bfbea286fe63b",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "98f8d7e3f67415b354973d6c61f240d47051bb15",
+      "head_git_blob_sha1": "98f8d7e3f67415b354973d6c61f240d47051bb15",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/data/utils.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/data/utils.py",
+      "original_sha256": "e0c457e61c044841c9d69a8b1b29c44715971119f91aae923891f2b8d6171930",
+      "sha256": "e0c457e61c044841c9d69a8b1b29c44715971119f91aae923891f2b8d6171930",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "55675aeb2a1f2ef3206098408af90dc989eed21d",
+      "head_git_blob_sha1": "55675aeb2a1f2ef3206098408af90dc989eed21d",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/data/wma_data.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/data/wma_data.py",
+      "original_sha256": "9f4614bbffd4d7179a39d2c37da37aec32cb5ff229b819effb5b883e348f44e4",
+      "sha256": "9f4614bbffd4d7179a39d2c37da37aec32cb5ff229b819effb5b883e348f44e4",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "bf64b322b3cf78b4b114333b15f6e1edf64f0e2b",
+      "head_git_blob_sha1": "bf64b322b3cf78b4b114333b15f6e1edf64f0e2b",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/__init__.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "head_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/autoencoder.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/autoencoder.py",
+      "original_sha256": "e9122e32d993e42a60d2a6623cc936ce44d5487d13e4039af289eb10c1a8e322",
+      "sha256": "e9122e32d993e42a60d2a6623cc936ce44d5487d13e4039af289eb10c1a8e322",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "2a3b5215cd6fffb716e0a9db30866b025653bd57",
+      "head_git_blob_sha1": "2a3b5215cd6fffb716e0a9db30866b025653bd57",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/ddpms.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/ddpms.py",
+      "original_sha256": "1946315e7d0d024d4d733313cd4e0eff6025811ef38c343d1253df799eafe489",
+      "sha256": "1946315e7d0d024d4d733313cd4e0eff6025811ef38c343d1253df799eafe489",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "19273ad6fceda680abc79b49f1ee009ed8411a47",
+      "head_git_blob_sha1": "19273ad6fceda680abc79b49f1ee009ed8411a47",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/__init__.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "head_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/base_nets.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/base_nets.py",
+      "original_sha256": "df846f316c8516deca3f0a5e6f606198119803793b261bedf7c3a0991af89b64",
+      "sha256": "df846f316c8516deca3f0a5e6f606198119803793b261bedf7c3a0991af89b64",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "8e96bafe8dec709cca1f1fe4c2c106ebc489f490",
+      "head_git_blob_sha1": "8e96bafe8dec709cca1f1fe4c2c106ebc489f490",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/common/__init__.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/common/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "head_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/common/lr_scheduler.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/common/lr_scheduler.py",
+      "original_sha256": "81ac0536df028b6faf3466c1ee4813e2c1ecf8b4928837b1cf6d0a6595a40940",
+      "sha256": "81ac0536df028b6faf3466c1ee4813e2c1ecf8b4928837b1cf6d0a6595a40940",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "6f4f60a5a71822b289fd38498642389854d6309b",
+      "head_git_blob_sha1": "6f4f60a5a71822b289fd38498642389854d6309b",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/common/module_attr_mixin.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/common/module_attr_mixin.py",
+      "original_sha256": "37bb26e0ac9bcba6161dba613929d9d3f475f2bba683885fcb49df323d6dade7",
+      "sha256": "37bb26e0ac9bcba6161dba613929d9d3f475f2bba683885fcb49df323d6dade7",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "e33efe29ccd40bf1da0c589319bbd506205e35c7",
+      "head_git_blob_sha1": "e33efe29ccd40bf1da0c589319bbd506205e35c7",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/common/pytorch_util.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/common/pytorch_util.py",
+      "original_sha256": "242fec591f7c0c566af5cfa746ec0d275fc4c2729e1a8a7ecaa9fa80503265a8",
+      "sha256": "242fec591f7c0c566af5cfa746ec0d275fc4c2729e1a8a7ecaa9fa80503265a8",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "a8913e7a48b3d709921d0ca1f16cca8a81daa9fb",
+      "head_git_blob_sha1": "a8913e7a48b3d709921d0ca1f16cca8a81daa9fb",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/common/tensor_util.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/common/tensor_util.py",
+      "original_sha256": "6e332b9f3cd0fe708450b39a1502193b644bad3bcd143d6720b5702ee038ead6",
+      "sha256": "6e332b9f3cd0fe708450b39a1502193b644bad3bcd143d6720b5702ee038ead6",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "98e962a352453e515e1cded5d56878cd9581b8c7",
+      "head_git_blob_sha1": "98e962a352453e515e1cded5d56878cd9581b8c7",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/conditional_unet1d.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/conditional_unet1d.py",
+      "original_sha256": "ba67b38afbc070a623668820f6179bab01dd13a5b3f07749eca62d81e929934a",
+      "sha256": "ba67b38afbc070a623668820f6179bab01dd13a5b3f07749eca62d81e929934a",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "80c0e891688063135f061894878fd2d8b75001a3",
+      "head_git_blob_sha1": "80c0e891688063135f061894878fd2d8b75001a3",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/conv1d_components.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/conv1d_components.py",
+      "original_sha256": "4c0b952dd48edd46d1fdb2dd044951a69e4d32f13faf73fa823aaa083736da3d",
+      "sha256": "4c0b952dd48edd46d1fdb2dd044951a69e4d32f13faf73fa823aaa083736da3d",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "713ac6c7e7a43c9dff459271777ebc7eb85b16a5",
+      "head_git_blob_sha1": "713ac6c7e7a43c9dff459271777ebc7eb85b16a5",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/ema_model.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/ema_model.py",
+      "original_sha256": "9aae4795ef07a6aac27966ce686e6879ba55944e474ef3a03d4bd1e38aa73b66",
+      "sha256": "9aae4795ef07a6aac27966ce686e6879ba55944e474ef3a03d4bd1e38aa73b66",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "c83a3b0b149a591d56a5a5e89414efeaf82b05e9",
+      "head_git_blob_sha1": "c83a3b0b149a591d56a5a5e89414efeaf82b05e9",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/positional_embedding.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/positional_embedding.py",
+      "original_sha256": "87eaca54c0037e6084c6401425e9548b141366be3e5ab1544a6fdd24ae7d4e59",
+      "sha256": "87eaca54c0037e6084c6401425e9548b141366be3e5ab1544a6fdd24ae7d4e59",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "1b1d646d53e721c86312c38e558b6ceab3d77959",
+      "head_git_blob_sha1": "1b1d646d53e721c86312c38e558b6ceab3d77959",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/vision/__init__.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/vision/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "head_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/vision/crop_randomizer.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/vision/crop_randomizer.py",
+      "original_sha256": "6f5f51e06406bb1ec7d230408a72e658d9af83bef61d364f3c1f1ec99199a811",
+      "sha256": "6f5f51e06406bb1ec7d230408a72e658d9af83bef61d364f3c1f1ec99199a811",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "d7b54087d5a080da80a515b96a7ee372be87457e",
+      "head_git_blob_sha1": "d7b54087d5a080da80a515b96a7ee372be87457e",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/vision/model_getter.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/vision/model_getter.py",
+      "original_sha256": "7903df3de6f992674fe75aff6702e296c31f0a66673ddca09adf451665a215d5",
+      "sha256": "7903df3de6f992674fe75aff6702e296c31f0a66673ddca09adf451665a215d5",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "9c33ff05b37d8b6d565a1eb7ccad0acae760b80d",
+      "head_git_blob_sha1": "9c33ff05b37d8b6d565a1eb7ccad0acae760b80d",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/diffusion_head/vision/multi_image_obs_encoder.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/diffusion_head/vision/multi_image_obs_encoder.py",
+      "original_sha256": "2fb3f81a7ae814b9c0ad0257967bc0a6caba59135f14b8d6e51309a462fe5b05",
+      "sha256": "2fb3f81a7ae814b9c0ad0257967bc0a6caba59135f14b8d6e51309a462fe5b05",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "c608529cf4a6ff01181e9ede7adf67e0748c867f",
+      "head_git_blob_sha1": "c608529cf4a6ff01181e9ede7adf67e0748c867f",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/models/samplers/ddim.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/models/samplers/ddim.py",
+      "original_sha256": "3ed62a5b6035327406c515d006dd431ef5c6acad910d52bfe63565f9f72a465f",
+      "sha256": "3ed62a5b6035327406c515d006dd431ef5c6acad910d52bfe63565f9f72a465f",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "40e06259a379123a282f208c5a0cc455c28e180c",
+      "head_git_blob_sha1": "40e06259a379123a282f208c5a0cc455c28e180c",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/__init__.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "head_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/attention.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/attention.py",
+      "original_sha256": "f127234a6eddc992a12152fe13b43581ca5e8aa4b05cca65918b45c8fa962be2",
+      "sha256": "f127234a6eddc992a12152fe13b43581ca5e8aa4b05cca65918b45c8fa962be2",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "445b5f08d6c42dd7762dbf7f4b3d113974d4b7ef",
+      "head_git_blob_sha1": "445b5f08d6c42dd7762dbf7f4b3d113974d4b7ef",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/encoders/condition.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/encoders/condition.py",
+      "original_sha256": "de60eb43829e1911cfc3673b2b057b3b3b1a072448fc69c7e31c8bea2e2a590a",
+      "sha256": "de60eb43829e1911cfc3673b2b057b3b3b1a072448fc69c7e31c8bea2e2a590a",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "29d3a777d8ef11950419aa7fc6e9f8e9ef110c46",
+      "head_git_blob_sha1": "29d3a777d8ef11950419aa7fc6e9f8e9ef110c46",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/encoders/resampler.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/encoders/resampler.py",
+      "original_sha256": "7c484af9e7de4dc636a771b226118bcbbc9a76c4d698de692b5bc261e2eded54",
+      "sha256": "7c484af9e7de4dc636a771b226118bcbbc9a76c4d698de692b5bc261e2eded54",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "74efaaa8c588e30dbc12be286ed96761a18f6ee4",
+      "head_git_blob_sha1": "74efaaa8c588e30dbc12be286ed96761a18f6ee4",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/networks/ae_modules.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/networks/ae_modules.py",
+      "original_sha256": "9041c12d23125ec26759021508a025ddb0a2a1b4d7ab741efdda0bdc705c0a54",
+      "sha256": "9041c12d23125ec26759021508a025ddb0a2a1b4d7ab741efdda0bdc705c0a54",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "2ec124dad76bd18a22ad0cc548b6d0c1c7e32ec8",
+      "head_git_blob_sha1": "2ec124dad76bd18a22ad0cc548b6d0c1c7e32ec8",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/networks/fused_ops.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/networks/fused_ops.py",
+      "original_sha256": "1f219538b97b01335fdf454fd9f0d2e7d463748e2e034e37de629f9800b6fdf6",
+      "sha256": "1f219538b97b01335fdf454fd9f0d2e7d463748e2e034e37de629f9800b6fdf6",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "7342be0e01982425e8de1bcd85790021ea620e36",
+      "head_git_blob_sha1": "7342be0e01982425e8de1bcd85790021ea620e36",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/networks/wma_model.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/networks/wma_model.py",
+      "original_sha256": "90d15945d868f9a69b310d871c5139df0a229d2d2ced20ecbd0e00b8608aa521",
+      "sha256": "90d15945d868f9a69b310d871c5139df0a229d2d2ced20ecbd0e00b8608aa521",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "bc8f640ab60a6149c3a773a15f6ffb74d8193eb7",
+      "head_git_blob_sha1": "bc8f640ab60a6149c3a773a15f6ffb74d8193eb7",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/vision/__init__.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/vision/__init__.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "head_git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/vision/base_vision.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/vision/base_vision.py",
+      "original_sha256": "512f9ae96461d4ae884b2683d131c8134144145bd9925833e0ca1e42976e4901",
+      "sha256": "512f9ae96461d4ae884b2683d131c8134144145bd9925833e0ca1e42976e4901",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "d6f09efe0997ff558f2af05b154cfe701fd8845d",
+      "head_git_blob_sha1": "d6f09efe0997ff558f2af05b154cfe701fd8845d",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/modules/vision/dinosiglip_vit.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/modules/vision/dinosiglip_vit.py",
+      "original_sha256": "956f3fac467b839049926699e39619022f336c0bab9a35fc62caee0db923f5a0",
+      "sha256": "956f3fac467b839049926699e39619022f336c0bab9a35fc62caee0db923f5a0",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "c688678e3c229f44a763790115e19d01d0d906b1",
+      "head_git_blob_sha1": "c688678e3c229f44a763790115e19d01d0d906b1",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/basics.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/basics.py",
+      "original_sha256": "523dc28b8b43ea214bef38e3e018d9b17283d5ff16bcd43d45896b6cafb23ed0",
+      "sha256": "523dc28b8b43ea214bef38e3e018d9b17283d5ff16bcd43d45896b6cafb23ed0",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "088298bc4de1a10d73cb752e59734d8edc39e3cd",
+      "head_git_blob_sha1": "088298bc4de1a10d73cb752e59734d8edc39e3cd",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/callbacks.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/callbacks.py",
+      "original_sha256": "0c202ecc4f32a59fa7a1705b1564b0240f1ad42a9bb64bdf104767013fa4a659",
+      "sha256": "0c202ecc4f32a59fa7a1705b1564b0240f1ad42a9bb64bdf104767013fa4a659",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "04583943705b38859fa183f2567dc44744e9a81c",
+      "head_git_blob_sha1": "04583943705b38859fa183f2567dc44744e9a81c",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/common.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/common.py",
+      "original_sha256": "29d01cb50b236df057b11b5aad57c873e6f768a6b3aa4b113007f633b36d83a2",
+      "sha256": "29d01cb50b236df057b11b5aad57c873e6f768a6b3aa4b113007f633b36d83a2",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "d155e071f475d66bd9553ab1940abde714220465",
+      "head_git_blob_sha1": "d155e071f475d66bd9553ab1940abde714220465",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/data.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/data.py",
+      "original_sha256": "2ca41c5173634b384443864ed19def16ae6c362862aa66c40b709cdd21b50c54",
+      "sha256": "2ca41c5173634b384443864ed19def16ae6c362862aa66c40b709cdd21b50c54",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "589da5cc670459f5699da3cea39ef83784d2cd4f",
+      "head_git_blob_sha1": "589da5cc670459f5699da3cea39ef83784d2cd4f",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/diffusion.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/diffusion.py",
+      "original_sha256": "a6e7b5b34e3dfc93555f6561273daf60180126ac3710bd379e2b8174dea5b7fc",
+      "sha256": "a6e7b5b34e3dfc93555f6561273daf60180126ac3710bd379e2b8174dea5b7fc",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "4ed2a855efe9b7a61fd6d5cebe2bff862124f3c1",
+      "head_git_blob_sha1": "4ed2a855efe9b7a61fd6d5cebe2bff862124f3c1",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/distributions.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/distributions.py",
+      "original_sha256": "883da663bc0c6ddb680ccdcc279562914c7d00814cba885393cd954b09c741e7",
+      "sha256": "883da663bc0c6ddb680ccdcc279562914c7d00814cba885393cd954b09c741e7",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "8b04a67cd45e042eef95d00594dafe6fbe4f8cb9",
+      "head_git_blob_sha1": "8b04a67cd45e042eef95d00594dafe6fbe4f8cb9",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/ema.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/ema.py",
+      "original_sha256": "dda5d0b69be3dc0b695f87a61ee8dd0856e622c03cfa7b464dc985c197781bb8",
+      "sha256": "dda5d0b69be3dc0b695f87a61ee8dd0856e622c03cfa7b464dc985c197781bb8",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "d3898a8f4e7a67e95e378003ec6e4f76829a1bd7",
+      "head_git_blob_sha1": "d3898a8f4e7a67e95e378003ec6e4f76829a1bd7",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/nn_utils.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/nn_utils.py",
+      "original_sha256": "a6d3a4b62bfff6533405f393d1a30ff9082cc26f8c03ed0c4219f944c9c8aee7",
+      "sha256": "a6d3a4b62bfff6533405f393d1a30ff9082cc26f8c03ed0c4219f944c9c8aee7",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "15dabd3cd04171174928916cf638aa5cc099448b",
+      "head_git_blob_sha1": "15dabd3cd04171174928916cf638aa5cc099448b",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/projector.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/projector.py",
+      "original_sha256": "2d82cc2cf26348f57686871e619929bf522c165de9894fcdece99a5cec53add0",
+      "sha256": "303cd049a3774abad0a5fff857a659a85ad833313cc308cf1f2b7e90e041636e",
+      "transformation": "2026-11-01 packaging repair: two equality conditions, missing colon, undefined error-variable; byte-original preserved in archived/projector.py.txt; timings predate repair",
+      "archive_git_blob_sha1": "579b7c265458bf737daa7aa046ae9a949db6ec20",
+      "head_git_blob_sha1": "579b7c265458bf737daa7aa046ae9a949db6ec20",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/save_video.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/save_video.py",
+      "original_sha256": "9dda43b84dea675d9245dfa9c149ce77be529fb596e8846136a1cf31d3e87c5c",
+      "sha256": "9dda43b84dea675d9245dfa9c149ce77be529fb596e8846136a1cf31d3e87c5c",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "83f475b34b6a57de675396db481fe0195f95eba7",
+      "head_git_blob_sha1": "83f475b34b6a57de675396db481fe0195f95eba7",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/train.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/train.py",
+      "original_sha256": "07ae2b9266630066de9858cfff472e85aa48a7a3163470d7730823736c77ff5c",
+      "sha256": "07ae2b9266630066de9858cfff472e85aa48a7a3163470d7730823736c77ff5c",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "225fbf20aeeb6e9a9a22dcd630606706c1e6b33c",
+      "head_git_blob_sha1": "225fbf20aeeb6e9a9a22dcd630606706c1e6b33c",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/src/unifolm_wma/utils/utils.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/src/unifolm_wma/utils/utils.py",
+      "original_sha256": "288d19d0b00c5c66912c5daddae3820db56e11eb878933b159468e80940deb51",
+      "sha256": "288d19d0b00c5c66912c5daddae3820db56e11eb878933b159468e80940deb51",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "177d1bfea462fd9431adad579da7a9d731c13db2",
+      "head_git_blob_sha1": "177d1bfea462fd9431adad579da7a9d731c13db2",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/ops/__init__.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/ops/__init__.py",
+      "original_sha256": "9093334f6e0cc33e05ff37ce952d90e1e0e34f2de29a3077411d4af80496bc96",
+      "sha256": "9093334f6e0cc33e05ff37ce952d90e1e0e34f2de29a3077411d4af80496bc96",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "5021dc4ea06befa0a0cfe60a1401357081325289",
+      "head_git_blob_sha1": "5021dc4ea06befa0a0cfe60a1401357081325289",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/ops/binding.cpp",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/ops/binding.cpp",
+      "original_sha256": "d8ab5b6834395ad84f51def89212f222a297cf3273bd625d01634e51a56bb064",
+      "sha256": "d8ab5b6834395ad84f51def89212f222a297cf3273bd625d01634e51a56bb064",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "a6e9f4b91cc40b0bb360f0a796325beed672e32e",
+      "head_git_blob_sha1": "a6e9f4b91cc40b0bb360f0a796325beed672e32e",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/ops/gelu_and_mul.cu",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/ops/gelu_and_mul.cu",
+      "original_sha256": "852d860869c866680aec5ab378f58e0ce0c0653a893e9b78b4eefb6ca35a7c99",
+      "sha256": "852d860869c866680aec5ab378f58e0ce0c0653a893e9b78b4eefb6ca35a7c99",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "39116ac388ea1d4436d73aefd6dbe8f8b8f4b388",
+      "head_git_blob_sha1": "39116ac388ea1d4436d73aefd6dbe8f8b8f4b388",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/configs/inference/base_model_inference.yaml",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/configs/inference/base_model_inference.yaml",
+      "original_sha256": "014aaa68980a9a36c249955580679b45a93930c6997a12174f290b81a20359af",
+      "sha256": "014aaa68980a9a36c249955580679b45a93930c6997a12174f290b81a20359af",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "157000a128c25841d4e97efcc7ed469132d23376",
+      "head_git_blob_sha1": "157000a128c25841d4e97efcc7ed469132d23376",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/configs/inference/world_model_decision_making.yaml",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/configs/inference/world_model_decision_making.yaml",
+      "original_sha256": "e7ababc253d7275a36af3ea7d6a5d80341fe0ebaf669ff99da46483478602fc2",
+      "sha256": "e7ababc253d7275a36af3ea7d6a5d80341fe0ebaf669ff99da46483478602fc2",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "2f51dce1a30c6f1559b8683e4e0bdc0eb3552c6b",
+      "head_git_blob_sha1": "2f51dce1a30c6f1559b8683e4e0bdc0eb3552c6b",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/configs/inference/world_model_interaction.yaml",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/configs/inference/world_model_interaction.yaml",
+      "original_sha256": "a74d78a102949b9a1758ecec2c4205479e76ff2ca73e347a7629b60a5ebbec52",
+      "sha256": "a74d78a102949b9a1758ecec2c4205479e76ff2ca73e347a7629b60a5ebbec52",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "b79b196bff3d7183eadb0d5c37b786e18691700e",
+      "head_git_blob_sha1": "b79b196bff3d7183eadb0d5c37b786e18691700e",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/configs/train/config.yaml",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/configs/train/config.yaml",
+      "original_sha256": "8b53c25b596321712c40c495f748415d6e7fd39afbc891a8f1321004c0d1263b",
+      "sha256": "8b53c25b596321712c40c495f748415d6e7fd39afbc891a8f1321004c0d1263b",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "9e7bb0685674bcc0cdae782b7c162c1ba1d8fd8d",
+      "head_git_blob_sha1": "9e7bb0685674bcc0cdae782b7c162c1ba1d8fd8d",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/configs/train/meta.json",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/configs/train/meta.json",
+      "original_sha256": "2ac4a28e8d627485f9231274f101603b8e5012875a2d8ddfaf73d915a71666e6",
+      "sha256": "2ac4a28e8d627485f9231274f101603b8e5012875a2d8ddfaf73d915a71666e6",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "cbe7ab718114e27aa66adde03e848206b78b404c",
+      "head_git_blob_sha1": "cbe7ab718114e27aa66adde03e848206b78b404c",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/evaluation/base_model_inference.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/evaluation/base_model_inference.py",
+      "original_sha256": "da0c676727502cad5649ceed88034bf66f86e56208add7b3b2f25e8e3ea25bf6",
+      "sha256": "da0c676727502cad5649ceed88034bf66f86e56208add7b3b2f25e8e3ea25bf6",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "42945a784af304bc47edcb99672aa683a49a1920",
+      "head_git_blob_sha1": "42945a784af304bc47edcb99672aa683a49a1920",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/evaluation/eval_utils.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/evaluation/eval_utils.py",
+      "original_sha256": "f71a33c5d94d509c631729193e34b58554acdd64e81746ee01d8792975539662",
+      "sha256": "f71a33c5d94d509c631729193e34b58554acdd64e81746ee01d8792975539662",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "366335ac05d0ef01167d89d6c46ae6ce39a8885c",
+      "head_git_blob_sha1": "366335ac05d0ef01167d89d6c46ae6ce39a8885c",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/evaluation/real_eval_server.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/evaluation/real_eval_server.py",
+      "original_sha256": "2dc7155601a6e713f52485c078e60f72a41371020c9ffa703f321fb8bb8e5828",
+      "sha256": "2dc7155601a6e713f52485c078e60f72a41371020c9ffa703f321fb8bb8e5828",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "d780b5d867808aacdf4fe36abff4f34acb4a1133",
+      "head_git_blob_sha1": "d780b5d867808aacdf4fe36abff4f34acb4a1133",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/evaluation/world_model_interaction.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/evaluation/world_model_interaction.py",
+      "original_sha256": "6b5541aaec6866b575c67e80c8b179a129ff70038fa9488e25d37c6f7b2a8d06",
+      "sha256": "6b5541aaec6866b575c67e80c8b179a129ff70038fa9488e25d37c6f7b2a8d06",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "c041038b3f56acc9787a203627c483bf13e259db",
+      "head_git_blob_sha1": "c041038b3f56acc9787a203627c483bf13e259db",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/evaluation/world_model_interaction_bak.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/evaluation/world_model_interaction_bak.py",
+      "original_sha256": "6333dd0ace93a219ba1ae9dc1ee445067f913d12b080715c0da88ed2f44ca783",
+      "sha256": "6333dd0ace93a219ba1ae9dc1ee445067f913d12b080715c0da88ed2f44ca783",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "3f33f80d63e1375e8b3c440371ed9b27f4c2de30",
+      "head_git_blob_sha1": "3f33f80d63e1375e8b3c440371ed9b27f4c2de30",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/evaluation/world_model_interaction_profiler.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/evaluation/world_model_interaction_profiler.py",
+      "original_sha256": "ef16699f559245466ea7079ded2708608de8d2fc678d51d39b40b28eac2a6b13",
+      "sha256": "ef16699f559245466ea7079ded2708608de8d2fc678d51d39b40b28eac2a6b13",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "74f9da37e3f69a4a09a306747742b92c78f64e19",
+      "head_git_blob_sha1": "74f9da37e3f69a4a09a306747742b92c78f64e19",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/run_base_model_inference.sh",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/run_base_model_inference.sh",
+      "original_sha256": "4acf904135be2b95f603f1e49be24b8d58d46d1a7bd1b6cf454f44d1be207bdc",
+      "sha256": "4acf904135be2b95f603f1e49be24b8d58d46d1a7bd1b6cf454f44d1be207bdc",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "aad7af6917ce83a4107c3f26243b82a9ba3a644b",
+      "head_git_blob_sha1": "aad7af6917ce83a4107c3f26243b82a9ba3a644b",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/run_real_eval_server.sh",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/run_real_eval_server.sh",
+      "original_sha256": "afe36e9efb50320ea0baf272dc49b6664e1a648bc06d615a2a8f0e39d2a89ec2",
+      "sha256": "afe36e9efb50320ea0baf272dc49b6664e1a648bc06d615a2a8f0e39d2a89ec2",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "29153a2bf6486f0d6ec99198bb623912d5562fed",
+      "head_git_blob_sha1": "29153a2bf6486f0d6ec99198bb623912d5562fed",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/run_world_model_interaction.sh",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/run_world_model_interaction.sh",
+      "original_sha256": "ff302517b447a6425030370a7fbdd7be721ee419d840760f2650407912e8a88b",
+      "sha256": "c06723b7b17a02472287a1230732475122fa5ef06d6c9281181c5f0ee6a4ca18",
+      "transformation": "checkpoint path parameterized",
+      "archive_git_blob_sha1": "77246bb9f4b6b065481323a61c8ca2afc4ad9b0d",
+      "head_git_blob_sha1": "77246bb9f4b6b065481323a61c8ca2afc4ad9b0d",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/train.sh",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/train.sh",
+      "original_sha256": "9ec4fa54cf5d5b0ff6176cd2aa7182e25959fef11a904aaaebca90e582dc00e5",
+      "sha256": "9ec4fa54cf5d5b0ff6176cd2aa7182e25959fef11a904aaaebca90e582dc00e5",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "d37ee79b05f2b38cee76a3ba73fce5cba88df569",
+      "head_git_blob_sha1": "d37ee79b05f2b38cee76a3ba73fce5cba88df569",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/scripts/trainer.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/scripts/trainer.py",
+      "original_sha256": "9d976cb96e1e76ac54fe551d63632bff917a47efa2bed17858c3d446faed8d11",
+      "sha256": "9d976cb96e1e76ac54fe551d63632bff917a47efa2bed17858c3d446faed8d11",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "87c68208925fe6732773788a2f114bcb9b8cc3e9",
+      "head_git_blob_sha1": "87c68208925fe6732773788a2f114bcb9b8cc3e9",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/LICENSE",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/LICENSE",
+      "original_sha256": "ca08f1b921733a34841bec5d6d58933e489c1f5c79389e2c633197c255a874ef",
+      "sha256": "ca08f1b921733a34841bec5d6d58933e489c1f5c79389e2c633197c255a874ef",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "5522eeacd4f9f9a22c51d79b566e60cf2b2d750d",
+      "head_git_blob_sha1": "5522eeacd4f9f9a22c51d79b566e60cf2b2d750d",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/setup.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/setup.py",
+      "original_sha256": "efaf78513a35e9b878fae081361b5cb9141191c3f61e205b2b69d00ae000e900",
+      "sha256": "efaf78513a35e9b878fae081361b5cb9141191c3f61e205b2b69d00ae000e900",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "77a1ac8a94274e2c40b3359ba67161f60c7391f5",
+      "head_git_blob_sha1": "77a1ac8a94274e2c40b3359ba67161f60c7391f5",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/pyproject.toml",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/pyproject.toml",
+      "original_sha256": "1becaca8fa86e01858266d3513f45e6c438dcd120d70c30697920f7d08a44db2",
+      "sha256": "1becaca8fa86e01858266d3513f45e6c438dcd120d70c30697920f7d08a44db2",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "e5176602eea01e2866cc8dc46ba15b3a13234ccf",
+      "head_git_blob_sha1": "e5176602eea01e2866cc8dc46ba15b3a13234ccf",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/pixi.lock",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/pixi.lock",
+      "original_sha256": "d3df5dcf8d64f6030b71dd8ba99480941bfe290cfe9ae51fe3c8b70d92a48c79",
+      "sha256": "d3df5dcf8d64f6030b71dd8ba99480941bfe290cfe9ae51fe3c8b70d92a48c79",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "47f1d5e9568a513271a42f54b77d2e1c655331e9",
+      "head_git_blob_sha1": "47f1d5e9568a513271a42f54b77d2e1c655331e9",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/README.md",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/README.md",
+      "original_sha256": "d59c226c3da41e30d90c21cfece6edfaa5da1c8be9001e73030cdf88e15f373a",
+      "sha256": "d59c226c3da41e30d90c21cfece6edfaa5da1c8be9001e73030cdf88e15f373a",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "15aa4be8418f307bce06d08f20608546b1544111",
+      "head_git_blob_sha1": "15aa4be8418f307bce06d08f20608546b1544111",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/README_cn.md",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/README_cn.md",
+      "original_sha256": "4ececa1d466b3abdc4a303fd62289df67a5d2cc0557a3fa62e9191cd6ec42b63",
+      "sha256": "4ececa1d466b3abdc4a303fd62289df67a5d2cc0557a3fa62e9191cd6ec42b63",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "143f99878de34257a78afad86057522dd040a468",
+      "head_git_blob_sha1": "143f99878de34257a78afad86057522dd040a468",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/compute_speedup.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/compute_speedup.py",
+      "original_sha256": "86c5e8d5823b816a45a28a0255bfa693ca8981eba1390f99ab0291bc03935c46",
+      "sha256": "86c5e8d5823b816a45a28a0255bfa693ca8981eba1390f99ab0291bc03935c46",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "66dc0fdf6ecc8de8ac9ea6b9513628a3e65d92a7",
+      "head_git_blob_sha1": "66dc0fdf6ecc8de8ac9ea6b9513628a3e65d92a7",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/build_results_json_from_runs.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/build_results_json_from_runs.py",
+      "original_sha256": "3c6c700003773dda30603ef8448a4700079b3deb72e1d8771e72af4f2789ca5b",
+      "sha256": "3c6c700003773dda30603ef8448a4700079b3deb72e1d8771e72af4f2789ca5b",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "320d62e4af494096e29cbc46524cf063c4b5fd8a",
+      "head_git_blob_sha1": "320d62e4af494096e29cbc46524cf063c4b5fd8a",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/update_results_with_times.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/update_results_with_times.py",
+      "original_sha256": "d0c558cfa8c9ce80853167f3561ef406220110a5fd36a918bfe65217c3685d7f",
+      "sha256": "d0c558cfa8c9ce80853167f3561ef406220110a5fd36a918bfe65217c3685d7f",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "4870a511db65a2bf081469c984ce57f5de244f09",
+      "head_git_blob_sha1": "4870a511db65a2bf081469c984ce57f5de244f09",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "project/psnr_score_for_challenge.py",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/psnr_score_for_challenge.py",
+      "original_sha256": "4cc8767eaf56ae34bcef5a092fd35add7865bf876ded2e8aa3f0d6b4cf1688ca",
+      "sha256": "4cc8767eaf56ae34bcef5a092fd35add7865bf876ded2e8aa3f0d6b4cf1688ca",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "6223db695a186a64696f9a3902fa2fdf4da34cce",
+      "head_git_blob_sha1": "6223db695a186a64696f9a3902fa2fdf4da34cce",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "benchmarks/baseline.json",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/baseline.json",
+      "original_sha256": "7668c1349906d048ca9b479567ef26b962d1cffed4a241ea21bbc37af7fb4765",
+      "sha256": "bf678e590859b9be3f016e90515217ab50812e5a5071a549e1a8ad3f79e093ed",
+      "transformation": "private absolute source_root replaced",
+      "archive_git_blob_sha1": "aa37b610848cac9d0374d3af5c53664afd27e71a",
+      "head_git_blob_sha1": "aa37b610848cac9d0374d3af5c53664afd27e71a",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "benchmarks/ours.json",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/ours.json",
+      "original_sha256": "b6a0943600090cbb28c93f1bdc94287c4aa06c8a78bb902f4a367d02a6a4716d",
+      "sha256": "f658e2bb080de0b4801fbe4fe001ad761c64d47ecf037fb9e2fccd6f9935bcd1",
+      "transformation": "private absolute source_root replaced",
+      "archive_git_blob_sha1": "ff554d567f7d2837760184bbc3707cafc3637187",
+      "head_git_blob_sha1": "ff554d567f7d2837760184bbc3707cafc3637187",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "benchmarks/real_times.json",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/real_times.json",
+      "original_sha256": "a40dd6cd31973da6a7b31a668642461d1fca80928b9d5032608484f374ca277a",
+      "sha256": "a40dd6cd31973da6a7b31a668642461d1fca80928b9d5032608484f374ca277a",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "bf183841b3edbfc8089b32cf1793c42afee8d2b6",
+      "head_git_blob_sha1": "bf183841b3edbfc8089b32cf1793c42afee8d2b6",
+      "relation_to_archived_main": "identical"
+    },
+    {
+      "path": "benchmarks/speedup_real_vs_merged.json",
+      "archive_entry": "opt/ASC2026-UNIFOLM-WMA-NEW/speedup_real_vs_merged.json",
+      "original_sha256": "3c8740f68861e1bfb894fc69dd5e3d6b445b771cecf7c2695d7c63dab15d2214",
+      "sha256": "3c8740f68861e1bfb894fc69dd5e3d6b445b771cecf7c2695d7c63dab15d2214",
+      "transformation": "byte-identical",
+      "archive_git_blob_sha1": "d37488b4b20dde7967298fb1b97b89d8addc54bb",
+      "head_git_blob_sha1": "d37488b4b20dde7967298fb1b97b89d8addc54bb",
+      "relation_to_archived_main": "identical"
+    }
+  ],
+  "head_relationship_counts": {
+    "identical": 79
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "cases": 20,
+  "baseline_mean_seconds": 909.6807,
+  "optimized_mean_seconds": 244.90540000000001,
+  "ratio_of_means": 3.714416668640218,
+  "mean_of_case_ratios": 3.7210020151505843,
+  "verified_archive_files": 79,
+  "python_files_parsed": 59,
+  "validation_scope": "Archived data recomputation, source integrity and syntax; no GPU inference performed",
+  "checked_on": "2026-11-01",
+  "unit_tests": 8,
+  "unit_tests_passed": true
+}

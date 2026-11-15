@@ -1,0 +1,5 @@
+# Directly used by the maintained entry point; versions preserved in project/pixi.lock.
+# Install alongside project/pyproject.toml dependencies on Linux with CUDA PyTorch 2.3.1.
+h5py==3.15.1
+safetensors==0.7.0
+triton==2.3.1

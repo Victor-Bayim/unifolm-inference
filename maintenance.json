@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-15",
+  "scope": "CPU-maintained corrections; no new GPU performance claim",
+  "official_upstream_revision": null,
+  "archived_team_revision": "b7c5f751ba11e98553c743af480335d872dc9100",
+  "files": [
+    {
+      "path": "project/src/unifolm_wma/modules/attention.py",
+      "original_copy": "archived/before-maintenance/project/src/unifolm_wma/modules/attention.py",
+      "original_sha256": "f127234a6eddc992a12152fe13b43581ca5e8aa4b05cca65918b45c8fa962be2",
+      "maintained_sha256": "749875464efd86e02d29f721cf8a19dc233e4f4ca5defc9c3f6585ca6e56c6fb",
+      "patch": "patches/attention.py.patch",
+      "patch_sha256": "b367778d578e6ba44e1c9f05f0e6e8129ecc2c3ac7c7f7568d70d5317878bcd4"
+    },
+    {
+      "path": "project/scripts/evaluation/world_model_interaction.py",
+      "original_copy": "archived/before-maintenance/project/scripts/evaluation/world_model_interaction.py",
+      "original_sha256": "6b5541aaec6866b575c67e80c8b179a129ff70038fa9488e25d37c6f7b2a8d06",
+      "maintained_sha256": "712fcb29f71af1d95e4138cb9a7b0dea94f5cb2c374edca42e72963fee5779fb",
+      "patch": "patches/world_model_interaction.py.patch",
+      "patch_sha256": "ae5e0474056efb52378a70a5b198a950bd24d3764140f8677aff4428b6a8f5ef"
+    }
+  ]
+}
