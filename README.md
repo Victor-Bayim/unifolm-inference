@@ -2,40 +2,30 @@
 
 # UnifoLM Inference Engine: 3.7× Acceleration
 
-Hardware-aware inference optimizations for the UnifoLM-WMA-0 world model (ASC). Across 20 archived cases, mean selected inference time drops from **909.68 s** to **244.91 s**, delivering a **3.71×** speedup while remaining fully compatible with upstream weights and data formats.
+Inference optimizations for UnifoLM-WMA-0 (ASC). On the 20 archived cases the mean selected time drops from **909.68 s** to **244.91 s** (**3.71×**). Model weights and input format stay compatible with the upstream framework.
 
-## What Was Optimized
+The main changes sit in the attention, sampling, and feature-pipeline paths:
 
-The work targets the dominant costs in video-based world-model and action-prediction inference:
+- Conditional KV cache and attention layout control so that previously computed keys/values are reused across DDIM steps instead of being recomputed.
+- A custom CUDA GEGLU (`ops/gelu_and_mul.cu` + Python binding) that replaces the generic PyTorch GEGLU for the feed-forward activation.
+- Triton-fused GroupNorm + SiLU that collapses two memory-bound kernels into one.
+- Dual-GPU feature pipeline: the prediction head runs on one GPU while feature reception and the next stage run on the other, overlapping compute and transfer.
+- Context caching in the video backbone so intermediate features are not recomputed when the conditioning has not changed.
 
-- Conditional KV caching with precise attention layout control, reducing redundant computation across diffusion steps.
-- A custom CUDA GEGLU kernel with Python bindings, replacing the generic PyTorch path for the feed-forward activation.
-- Triton-fused GroupNorm + SiLU, collapsing two memory-bound operations into a single kernel.
-- A dual-GPU feature pipeline that splits the prediction head and feature reception across two A800 80GB GPUs, overlapping computation and communication.
-- Context caching and a refined DDIM sampling path that reuses intermediate features where possible.
+The dual-process launcher (`tools/run_single_case.py`) manages cache lifecycle, selects a single case from the scene CSV, and starts the two CUDA processes only when `--run` is given. Historical environment was Linux + PyTorch 2.3.1 + two A800 80GB GPUs. The dual-GPU path cannot run on a single card.
 
-All changes are isolated to the inference path; model weights, checkpoint format, and input data layout remain unchanged.
-
-## Performance
-
-- Mean selected time (20 cases): 909.6807 s → 244.9054 s
-- Speedup (ratio of means): **3.714×**
-- Mean per-case speedup: **3.721×**
-
-Results are fully archived in `benchmarks/` and can be recomputed with the provided verification scripts. The dual-GPU path requires two A800 80GB GPUs.
-
-## Quick Start
+CPU-side checks recompute the archived timing records and exercise the cache and launcher logic without a GPU. Full GPU runs require the model weights, OpenCLIP resources, and converted prompt directories to be supplied separately.
 
 ```bash
-# CPU verification of records and cache logic
+# CPU verification
 python verify.py
 python -m unittest test_records -v
 
-# GPU execution (after weights and data are prepared)
+# GPU (after weights and data are ready)
 CUDA_VISIBLE_DEVICES=0,1 python tools/run_single_case.py \
   --checkpoint /path/to/weights.safetensors \
   --prompt-dir /path/to/prompts \
   --run
 ```
 
-Upstream framework: [Unitree Robotics / unifolm-world-model-action](https://github.com/unitreerobotics/unifolm-world-model-action).
+Upstream: [Unitree Robotics / unifolm-world-model-action](https://github.com/unitreerobotics/unifolm-world-model-action).
